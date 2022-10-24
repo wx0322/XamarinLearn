@@ -13,6 +13,8 @@ namespace XamarinLearn
     public MainPage()
     {
       InitializeComponent();
+      spTitle.Text = "PackageName：" + Xamarin.Essentials.AppInfo.PackageName + "\n";
+      sp2Title.Text = "Name：" + Xamarin.Essentials.AppInfo.Name + "\n";
     }
   }
 }

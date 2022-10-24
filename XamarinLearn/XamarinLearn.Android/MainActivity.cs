@@ -7,7 +7,7 @@ using Android.OS;
 
 namespace XamarinLearn.Droid
 {
-    [Activity(Label = "XamarinLearn", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, 
+    [Activity(Label = "山西健康", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, 
     ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
